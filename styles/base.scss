@@ -1,0 +1,21 @@
+$kcetgray:#d7d7d7;
+
+#wrapper {
+width:100%;
+}
+
+#content {
+background-color: $kcetgray;
+background-repeat: no-repeat;
+background-position: right top;
+padding: 20px 0 0px;
+}
+
+.container {
+width: 950px;
+margin: 0 auto;
+}
+
+.clearfix, .container {
+display:block;
+}

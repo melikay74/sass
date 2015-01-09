@@ -1,0 +1,251 @@
+.morelink, .overlay {
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.morelink {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=1 );
+  /* IE6-9 */ }
+
+.overlay {
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0.3)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#4d000000',GradientType=1 );
+  /* IE6-9 */ }
+
+body {
+  font-family: proxima-nova, Arial, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+#content {
+  background: #fff; }
+
+.content {
+  width: 950px;
+  margin: 0 auto;
+  border-bottom: 0; }
+
+/** SCC HEADER **/
+.sccheader {
+  margin: 0 auto 10px;
+  position: relative;
+  height: 150px;
+  width: 950px;
+  z-index: 1000; }
+  .sccheader .content {
+    position: relative; }
+
+.scclogo {
+  background: url("http://www.kcet.org/shows/socal_connected/images/scclogo.png") no-repeat;
+  position: absolute;
+  height: 150px;
+  width: 276px; }
+  .scclogo a {
+    width: 276px;
+    height: 150px;
+    text-indent: -9999em;
+    float: left; }
+
+.sccairtime {
+  top: 105px;
+  left: 366px;
+  position: absolute; }
+
+.sccsm {
+  top: 102px;
+  float: right;
+  position: absolute;
+  right: 40px; }
+  .sccsm ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .sccsm ul li {
+      margin: 0;
+      padding: 0;
+      display: inline-block; }
+  .sccsm a {
+    width: 38px;
+    height: 38px;
+    float: left;
+    background: url("http://www.kcet.org/shows/socal_connected/images/sm-sprites.png") no-repeat; }
+  .sccsm .sm-fb {
+    background-position: 0 0; }
+  .sccsm .sm-tw {
+    background-position: -44px 0; }
+  .sccsm .sm-ig {
+    background-position: -88px 0; }
+  .sccsm .sm-gp {
+    background-position: -132px 0; }
+  .sccsm .sm-vine {
+    background-position: -181px 0; }
+
+.sccmenu-btn a {
+  background: url("http://www.kcet.org/shows/socal_connected/images/icon-menu.png") no-repeat;
+  color: #CCCCCC;
+  float: left;
+  height: 26px;
+  text-decoration: none;
+  width: 30px; }
+
+.sccmenu-area {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 800; }
+
+.sccnav {
+  display: none;
+  padding-bottom: 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+.sccmenu {
+  display: none;
+  font-family: Scout;
+  font-size: 19px;
+  position: absolute;
+  right: 0;
+  top: 27px;
+  z-index: 1000;
+  top: 97px; }
+  .sccmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 290px; }
+
+.sccnav-list li {
+  background-color: #f1604f;
+  padding-left: 8px;
+  border-top: 1px solid #000; }
+.sccnav-list a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0c1c21;
+  padding: 10px 13px;
+  background-color: #fff;
+  font-family: proxima-nova, Arial, sans-serif; }
+
+.clearfix:after, .container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden; }
+
+.entrybox {
+  width: 309px;
+  height: 309px;
+  overflow: hidden;
+  margin-right: 11px;
+  float: left;
+  position: relative; }
+  .entrybox a {
+    color: #fff; }
+  .entrybox .ebsummary {
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    padding-right: 10px;
+    margin-right: 10px; }
+  .entrybox .ebcat {
+    text-transform: uppercase; }
+    .entrybox .ebcat a {
+      font-size: 16px; }
+  .entrybox .ebtitle a {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.1; }
+
+.entrybox:last-child {
+  margin-right: 0; }
+
+.morelink {
+  padding: 7px 0 5px;
+  text-align: right; }
+  .morelink a {
+    background: url("http://www.kcet.org/images/sn-morebtn.png") no-repeat right -36px;
+    font-size: 16px;
+    padding: 8px 40px 6px 0;
+    margin: 10px 0 10px 10px;
+    text-transform: uppercase; }
+
+.overlay {
+  height: 100%; }
+
+/** SCC FOOTER **/
+.scc-footer {
+  border-top: 5px solid #000;
+  padding: 15px 0px;
+  font-size: 14px;
+  margin-top: 25px;
+  text-align: center;
+  clear: both; }
+  .scc-footer a {
+    color: #000;
+    text-transform: uppercase; }
+
+.scc-funders {
+  margin: 60px 0;
+  position: relative; }
+
+.funder-link {
+  position: absolute; }
+  .funder-link a {
+    display: block; }
+
+.ahmanson {
+  width: 290px;
+  height: 100px;
+  position: absolute;
+  top: 30px; }
+
+.chapman {
+  width: 290px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  left: 330px; }
+
+.maddocks {
+  position: absolute;
+  top: 30px;
+  right: 0px; }
+
+.klprod {
+  margin-top: 20px;
+  text-align: center; }
+
+/*# sourceMappingURL=test.css.map */
